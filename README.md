@@ -1,17 +1,32 @@
-# flutter_lab4_app
+# Лабораторная работа №4-5. Flutter: структура UI и компонентный подход
 
-A new Flutter project.
+## Что изучили
 
-## Getting Started
+1. Как работать со структурой виджетов
+2. Как выносить виджеты классы и файлы
+3. Как передавать данные
+4. Как подключить локальные изображения
 
-This project is a starting point for a Flutter application.
+## Финальное приложение
 
-A few resources to get you started if this is your first Flutter project:
+![скриншот приложения](img/step6_Konovalova.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Ссылка на репозиторий
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Мой репозиторий:[Git Hub](https://github.com/ALISAKonovalova/Flutter_Lab4.git)
+
+## Инструкция по запуску
+
+Клонировать репозиторий `git clone *Ссылка на репозиторий*`
+Перейти в папку `cd Flutter:4`
+Скачать зависимости `Flutter pub get`
+Запустить приложение `run`
+
+## Ответы на вопросы
+
+1. Выносим для легкого ориентированния если держать всё в
+   main.dart код будет не читабельным.
+2. объект который держит информацию о местоположении виджета он нужен чтобы флатер знал где рисовать виджет
+3. StatelessWidge - не изменяемый виджет
+   StatefulWidget -может менять свое состояние
+4. чтобы не создавать новый генератор при каждом нажатие на кнопу
